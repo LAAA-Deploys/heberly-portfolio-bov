@@ -3,8 +3,8 @@
   "scope": "portfolio",
   "deal_id": "heberly-portfolio",
   "portfolio_id": "heberly-portfolio",
-  "package_version": "v11",
-  "approved_at": "2026-09-04T00:26:52.109946+00:00",
+  "package_version": "v12",
+  "approved_at": "2026-09-04T01:53:39.317307+00:00",
   "approver": "Morgan Wetmore",
   "price": {
     "value": 2770000
@@ -21,7 +21,7 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "abaf0a0cef87c845c1654371ca13dfe27979a9e98974f81ee715d4e0d75770f9"
+      "content_sha256": "2b4de7d75fe5a2cef9d4dd6d1280a4f06692129a7dd9d07098081e7f51397b80"
     },
     "financial_inputs": {
       "content_sha256": "1896fe753a0015a1fbe82432c7ff4b4a6d87759c001186b5808c5679abce91ca"
@@ -54,7 +54,7 @@
       "pricing_decision": "57f6fb52552d3db822d96ac2b5cf1e5cee0193ba20ec362ec8f8304914cb2031",
       "sale_comps": "b849a9a54a94ecbaace051e8eaab1a818b52e91baf2dc14385f006a3a837647e",
       "rent_comps": "aab66fe851345d57f15192b02686c2d1737098376fa99a490565b44b85326807",
-      "copy": "42cfbf7b86e03398534bc25979ff32877ba7f5b4feb390a93e8ad79406fe8279",
+      "copy": "a041b4cd2ffcb88cca8ca0c80541252257a4812dcd79720b686b585b0ff2f206",
       "media_selection": "46d2a1330c4841b80fc0c5b000be51e064ef05469d3e4f400246b344011696cd",
       "regulatory_conclusions": "99841073533647b26e0232ef36172b78f6c9b57dfc6121e6dc2b44a359c4e688"
     },
@@ -64,7 +64,7 @@
       "pricing_decision": "8f80059912ba8f1201f1ce6f77b502a6e8ff0445837e0d04035b8e155535f5d3",
       "sale_comps": "e48153e79c945b0762d9bfbc599d548e8554549eef9013039947de7415b18f08",
       "rent_comps": "3787fe59cb24a45e77c8e6b515fa6cf2350d6d3ea30937cc02f259b4fdeb2b31",
-      "copy": "3c469fa3dc771b79529ca12a42f4d457b337ea64c5d026300a14be7b0d428937",
+      "copy": "18e88b419c39f27437a6b87078f5816636196162ab032138362ec35dc4813729",
       "media_selection": "de68bd81cf156f819776b45e135f482be813c6cea68024e1ca3f6b7fa82f14b9",
       "regulatory_conclusions": "4458b560ee339e40f3b921d74265b24dcff2c33b308a1f2343079d531c1001b9"
     }
