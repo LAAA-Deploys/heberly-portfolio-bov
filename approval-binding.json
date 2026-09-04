@@ -3,8 +3,8 @@
   "scope": "portfolio",
   "deal_id": "heberly-portfolio",
   "portfolio_id": "heberly-portfolio",
-  "package_version": "v6",
-  "approved_at": "2026-09-03T23:55:59.636867+00:00",
+  "package_version": "v11",
+  "approved_at": "2026-09-04T00:26:52.109946+00:00",
   "approver": "Morgan Wetmore",
   "price": {
     "value": 2770000
@@ -21,7 +21,7 @@
   ],
   "domains": {
     "copy": {
-      "content_sha256": "4206077a02c90fe8d27b20416b39acf5203d3e87c6c8f52dee296709f37ee031"
+      "content_sha256": "abaf0a0cef87c845c1654371ca13dfe27979a9e98974f81ee715d4e0d75770f9"
     },
     "financial_inputs": {
       "content_sha256": "1896fe753a0015a1fbe82432c7ff4b4a6d87759c001186b5808c5679abce91ca"
@@ -33,7 +33,7 @@
       "content_sha256": "747b878b5ba396290e396b4db58c4a7aa119c48245f287f0f17ae1ecda1f6da8"
     },
     "pricing_decision": {
-      "content_sha256": "230af7a9f9c0a4e76cc1740b5963a8fb19c960359fdebe694f91723285ac247d"
+      "content_sha256": "561cbb3424cdc79e97c0f43444f5dd38d6e8e0aefae9d2825720e2c7356601d4"
     },
     "regulatory_conclusions": {
       "content_sha256": "fd86e9bce09511627a7a22aeb99b4173dacf2cbacaf40ad1ec27dc825a72fb48"
@@ -51,20 +51,20 @@
     "heberly-screenland-300": {
       "identity": "0b5d78b7656f83af67e901f4cfeeb7580043f8ca569882d4791c3f757bafe970",
       "financial_inputs": "51439596a3eae189b363fa5db35ca49dc72fcc1900d0486f88a8bf7f39eb537f",
-      "pricing_decision": "023abfc39a03d80100df752ae0484121153b84c83c2e63218c16f9a3f170c18f",
+      "pricing_decision": "57f6fb52552d3db822d96ac2b5cf1e5cee0193ba20ec362ec8f8304914cb2031",
       "sale_comps": "b849a9a54a94ecbaace051e8eaab1a818b52e91baf2dc14385f006a3a837647e",
       "rent_comps": "aab66fe851345d57f15192b02686c2d1737098376fa99a490565b44b85326807",
-      "copy": "e30fbd457f4e8559739edaa099dde4325e86228a60743a7bf56640be2fcb4688",
+      "copy": "42cfbf7b86e03398534bc25979ff32877ba7f5b4feb390a93e8ad79406fe8279",
       "media_selection": "46d2a1330c4841b80fc0c5b000be51e064ef05469d3e4f400246b344011696cd",
       "regulatory_conclusions": "99841073533647b26e0232ef36172b78f6c9b57dfc6121e6dc2b44a359c4e688"
     },
     "heberly-kenwood-1243": {
       "identity": "824eeb70c49b1fb5b0b8943ccec184ce954b3fa90dec0f3ee0a2f1b0fd84d09b",
       "financial_inputs": "c1d5a572aaffd6722279c824def032c338062a4d466c952f4feeaa9a9a847985",
-      "pricing_decision": "888ce85d5ec266c67d41b82e94ee7a694240724c64ec6cacf32a9ab35669ca45",
+      "pricing_decision": "8f80059912ba8f1201f1ce6f77b502a6e8ff0445837e0d04035b8e155535f5d3",
       "sale_comps": "e48153e79c945b0762d9bfbc599d548e8554549eef9013039947de7415b18f08",
       "rent_comps": "3787fe59cb24a45e77c8e6b515fa6cf2350d6d3ea30937cc02f259b4fdeb2b31",
-      "copy": "393c4b279d3045946ec322fb29abcc0fcd3109d5642ea2f695c50cef193dce65",
+      "copy": "3c469fa3dc771b79529ca12a42f4d457b337ea64c5d026300a14be7b0d428937",
       "media_selection": "de68bd81cf156f819776b45e135f482be813c6cea68024e1ca3f6b7fa82f14b9",
       "regulatory_conclusions": "4458b560ee339e40f3b921d74265b24dcff2c33b308a1f2343079d531c1001b9"
     }

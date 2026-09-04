@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="laaa-figures-pulled" content="2026-09-03T23:56:10+00:00">
+<meta name="laaa-figures-pulled" content="2026-09-04T00:27:03+00:00">
 <meta name="description" content="5-Unit Multifamily Investment - Burbank, CA 91505 | LAAA Team - Marcus &amp; Millichap">
 <meta property="og:title" content="Broker Opinion of Value - Screenland Dr">
 <meta property="og:description" content="5-Unit Multifamily Investment - Burbank, CA 91505 | LAAA Team - Marcus &amp; Millichap">
@@ -43,7 +43,13 @@ h1,h2,h3 { font-family: 'DM Serif Display', Georgia, serif; }
 .cover-title { font-size: 52px; font-weight: 400; letter-spacing: 1px; margin-bottom: 8px; text-shadow: 0 2px 12px rgba(0,0,0,0.3); font-family: 'DM Serif Display', serif; }
 .cover-address { font-size: 18px; font-weight: 400; letter-spacing: 1px; color: rgba(255,255,255,0.85); margin-top: 4px; }
 .cover-stats { display: flex; gap: 36px; justify-content: center; flex-wrap: wrap; margin-bottom: 32px; }
-.cover-stat { text-align: center; }
+/* Equal share per stat, so the VALUES sit on an even rhythm. Sized to content,
+   the fixed 36px gap sat between blocks of very different widths (88px for
+   "8 / Total Units" against 161px for "6,176 / Combined Building SF"), which
+   pushed the numbers 121px, then 157px, then 182px apart: the gap was even but
+   what a reader tracks across a stat row is the numbers, and those read as
+   bunched at the left. min-width keeps the wrap behaviour on a phone. */
+.cover-stat { text-align: center; flex: 1 1 0; min-width: 116px; }
 .cover-stat-value { display: block; font-size: 28px; font-weight: 600; color: #fff; font-family: 'DM Serif Display', serif; }
 .cover-stat-label { display: block; font-size: 11px; font-weight: 500; text-transform: uppercase; letter-spacing: 1.5px; color: #C5A258; margin-top: 4px; }
 /* Every agent gets the SAME slot width, so the photos sit evenly spaced no
@@ -59,8 +65,13 @@ h1,h2,h3 { font-family: 'DM Serif Display', Georgia, serif; }
    the cover ends up with, keeps every agent on one row, and stays above the
    84px photo well past any realistic lead count. */
 .cover-headshots { display: flex; justify-content: center; gap: 40px; margin-top: 24px; margin-bottom: 16px; }
-.cover-headshot { width: 84px; height: 84px; border-radius: 50%; border: 3px solid #C5A258; object-fit: cover; box-shadow: 0 4px 16px rgba(0,0,0,0.4); }
-.cover-headshot-name { font-size: 12px; font-weight: 600; margin-top: 6px; color: #fff; overflow-wrap: anywhere; }
+/* display:block, or the image sits on a text baseline inside its wrapper and
+   the wrapper's 25.6px line-height leaves ~8px of phantom descender space under
+   every photo. That made the real gap to the name 14px while the stylesheet
+   said 6px, so the spacing under the headshots could not be tuned by reading
+   the CSS. Block it out and set the gap deliberately below. */
+.cover-headshot { display: block; margin: 0 auto; width: 84px; height: 84px; border-radius: 50%; border: 3px solid #C5A258; object-fit: cover; box-shadow: 0 4px 16px rgba(0,0,0,0.4); }
+.cover-headshot-name { font-size: 12px; font-weight: 600; margin-top: 12px; color: #fff; overflow-wrap: anywhere; }
 .cover-headshot-title { font-size: 10px; color: #C5A258; overflow-wrap: anywhere; }
 .cover-headshot-wrap { flex: 0 1 190px; min-width: 0; text-align: center; }
 .client-greeting { font-size: 14px; font-weight: 500; color: #C5A258; letter-spacing: 1px; margin-top: 16px; }
@@ -169,6 +180,13 @@ td.num, th.num { text-align: right; }
    the whole container width, which read as a stretched banner (Glen,
    2026-08-19: same width and height so all looks normal). */
 .lead-card:last-child:nth-child(odd) { grid-column: 1 / -1; width: calc(50% - 10px); justify-self: center; }
+/* A non-principal lead renders no kicker at all (blocks.PRINCIPAL_NAMES, with
+   APPROVED_ROLE_KICKERS deliberately empty so nobody can invent a label). Their
+   name therefore started 22px higher than the principals beside them and the
+   row of names lost its shared baseline. Reserve the kicker's line rather than
+   give them a filler label, which is the thing that rule exists to prevent.
+   22px is the kicker's own 16px line box plus its 6px bottom margin. */
+.lead-card:not(:has(.lead-kicker)) .lead-head::before { content: ""; display: block; height: 22px; }
 .lead-card { display: grid; grid-template-columns: 150px minmax(0, 1fr); grid-template-rows: auto auto auto; grid-template-areas: "photo head" "photo bio" "photo contact"; column-gap: 20px; align-content: start; background: #fff; border: 1px solid #e5e9f0; border-radius: 12px; padding: 20px; box-shadow: 0 1px 6px rgba(27,58,92,0.06); }
 .lead-photo { grid-area: photo; width: 150px; height: 178px; border-radius: 10px; object-fit: cover; object-position: top; background: #f0f4f8; }
 .lead-head { grid-area: head; }
@@ -606,7 +624,7 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
     <tbody><tr><td>2907 W Riverside Drive</td><td class="num">4</td><td class="num">$1,590,000</td><td class="num">$397,500</td><td class="num">0.72 mi</td></tr><tr><td>143 N Maple St</td><td class="num">4</td><td class="num">$1,475,000</td><td class="num">$368,750</td><td class="num">0.32 mi</td></tr><tr><td>157 W Ash Ave</td><td class="num">5</td><td class="num">$2,425,000</td><td class="num">$485,000</td><td class="num">2.19 mi</td></tr><tr><td>1213 North Screenland Drive</td><td class="num">6</td><td class="num">$1,800,000</td><td class="num">$300,000</td><td class="num">1.20 mi</td></tr><tr><td>328 E Providencia Ave</td><td class="num">11</td><td class="num">$5,175,000</td><td class="num">$470,455</td><td class="num">2.78 mi</td></tr><tr><td>422 South Lake Street</td><td class="num">14</td><td class="num">$7,250,000</td><td class="num">$517,857</td><td class="num">2.15 mi</td></tr><tr><td>336, &amp; 342 E Providencia Ave</td><td class="num">24</td><td class="num">$7,050,000</td><td class="num">$293,750</td><td class="num">2.99 mi</td></tr><tr><td>703 East Providencia Avenue</td><td class="num">10</td><td class="num">$1,970,000</td><td class="num">$197,000</td><td class="num">3.17 mi</td></tr><tr><td>2501 North Glenoaks Boulevard</td><td class="num">6</td><td class="num">$1,530,000</td><td class="num">$255,000</td><td class="num">3.20 mi</td></tr></tbody>
   </table></div>
   <div class="tr-proof"><div class="tr-proof-item"><span class="tr-proof-figure">96.7%</span><span class="tr-proof-label">Apartment Pricing Accuracy</span></div><div class="tr-proof-item"><span class="tr-proof-figure">34</span><span class="tr-proof-label">Median Days on Market, Apartments</span></div></div>
-  <p class="tr-proof-source">Published team performance, <a href="https://www.laaa.com/track-record" target="_blank" rel="noopener">laaa.com/track-record</a>, as of September 3, 2026.</p>
+  <p class="tr-proof-source">Published team performance, <a href="https://www.laaa.com/track-record" target="_blank" rel="noopener">laaa.com/track-record</a>, as of September 4, 2026.</p>
     </div>
     <div class="tr-closings-figure">
       <div class="tr-closings-frame"><img src="../images/maps-300-screenland-closings.png" alt="LAAA closings near Screenland Dr" loading="lazy"></div>
@@ -694,6 +712,13 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
   <div class="loc-grid">
     <div class="loc-left">
 <p>The property sits on N Screenland Dr in Burbank 91505. The comparable set is unusually close: four screened sales closed within two thirds of a mile, and the nearest, 3311 W Alameda Ave, is under a third of a mile away and shares a 1954 vintage.</p>
+<p>The City of Burbank calls itself the Media Capital of the World and the tenant list supports it. Roughly 1,200 entertainment and media firms operate here. The Walt Disney Company runs its world corporate headquarters and studio lots in the city, Warner Bros. holds its historic lot and headquarters, and Nickelodeon Animation Studio, Cartoon Network Studios and Netflix Animation all sit inside the same few square miles.</p>
+<p>The studios are still building. Warner Bros. completed its Second Century project, an 800,000 SF Frank Gehry-designed headquarters in two buildings of roughly 355,000 and 445,000 SF, and took the whole complex as sole long-term tenant. It then redeveloped its 30-acre Ranch campus into roughly 926,000 SF of modern facilities carrying 16 soundstages, and opened it in 2026. Every stage is certified by the California Film Commission, so a production filming there qualifies for the state subsidy. Alongside the studios, digital creators and influencers have begun taking Burbank soundstage space of their own.</p>
+<p>The open question in this market is ownership rather than occupancy. Warner Bros. Discovery shareholders approved a Paramount Skydance acquisition in April 2026 at $31 a share, roughly $111B including debt, and the Department of Justice cleared it the following month. Twelve state attorneys general sued to block it in July 2026 and a federal judge issued a temporary restraining order. The transaction is expected to close between September and December 2026 and had not closed when this opinion was written.</p>
+<p>The largest piece of public investment in the city is finishing right now. Hollywood Burbank Airport replaces the terminal it has used since 1930 with a $1.3B, 355,000 SF, 14-gate building under the Elevate BUR program. The ribbon cutting is 5 October 2026 and the terminal opens to passengers on 13 October 2026.</p>
+<p>Downtown has filled in around it. The corridor added 28 restaurants over four years with at least seven more due through 2026, drawing tenants including Philz Coffee, Van Leeuwen Ice Cream, H&amp;M, Sephora, Miniso and The Melt, plus experiential operators such as Sandbox VR and Sky Zone. Four hotels are moving forward: an AC Hotel on N Third Street, a dual-brand Aloft and Residence Inn on N Hollywood Way, and a Home2 Suites on E Providencia Avenue. The city has adopted a Civic Center plan carrying a new library, a plaza and event space, with construction projected to start in summer 2027.</p>
+<p>On the residential side, downtown Burbank has absorbed roughly 800 new housing units with about 1,000 more approved, under construction or newly delivered. The largest are 862 units at 2311 N Hollywood Way, a transit-oriented project beside the Metrolink station and the airport, and 573 rental units at 777 Front Street, whose housing is complete with the commercial component due in 2028. First Street Village has delivered its first phase. The Downtown Transit Oriented Development Specific Plan studies capacity for as many as 9,944 additional units over its full horizon.</p>
+<p>That pipeline deserves a straight answer rather than a selective one. It is concentrated in the downtown core and in large institutional product, which competes for a different renter than a five unit building on a residential street, and none of it is a direct substitute for this asset. It is still new supply in the same city and it is the thing to watch on rent growth over a hold. What the employment base does for an owner here is hold the renter pool and the buyer pool in place. Burbank is a job center first, which is why its small apartment buildings trade on thin inventory and why the screened five to eight unit sales in this analysis cluster tightly on price per square foot despite a wide spread on price per unit.</p>
     </div>
     <div class="loc-right">
       <table class="info-table"><thead><tr><th colspan="2">Property &amp; Location Details</th></tr></thead><tbody><tr><td>Address</td><td>300 N Screenland Dr, Burbank, CA 91505</td></tr><tr><td>City</td><td>Burbank, CA 91505</td></tr><tr><td>APN</td><td>2482-011-032</td></tr><tr><td>Year Built</td><td>1955</td></tr><tr><td>Building SF</td><td>3,598</td></tr><tr><td>Lot Size</td><td>7,338 SF (0.1684 ac)</td></tr><tr><td>Units</td><td>5</td></tr><tr><td>Parking</td><td>On-site parking count is pending confirmation with ownership</td></tr></tbody></table>
@@ -787,7 +812,7 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
   <div class="section-divider"></div>
   <div class="table-scroll"><table data-summary-exempt="A valuation ladder has no aggregate: the rows are alternative prices for the same asset, not components of a total.">
     <thead><tr><th>Basis</th><th class="num">Price</th><th class="num">$/Unit</th><th class="num">$/SF</th><th class="num">GRM Current</th><th class="num">GRM Pro Forma</th><th class="num">Cap Current</th><th class="num">Cap Pro Forma</th></tr></thead>
-    <tbody><tr class="highlight"><td><strong>Suggested list price</strong></td><td class="num">$1,625,000</td><td class="num">$325,000</td><td class="num">$451.64</td><td class="num">11.80</td><td class="num">10.86</td><td class="num">5.56%</td><td class="num">6.24%</td></tr><tr><td><strong>Range top</strong></td><td class="num">$1,750,000</td><td class="num">$350,000</td><td class="num">$486.38</td><td class="num">12.71</td><td class="num">11.69</td><td class="num">5.08%</td><td class="num">5.71%</td></tr><tr><td><strong>Midpoint</strong></td><td class="num">$1,662,500</td><td class="num">$332,500</td><td class="num">$462.06</td><td class="num">12.07</td><td class="num">11.11</td><td class="num">5.41%</td><td class="num">6.07%</td></tr><tr><td><strong>Range bottom</strong></td><td class="num">$1,575,000</td><td class="num">$315,000</td><td class="num">$437.74</td><td class="num">11.44</td><td class="num">10.52</td><td class="num">5.77%</td><td class="num">6.48%</td></tr></tbody>
+    <tbody><tr class="highlight"><td><strong>Suggested list price</strong></td><td class="num">$1,625,000</td><td class="num">$325,000</td><td class="num">$451.64</td><td class="num">11.80</td><td class="num">10.86</td><td class="num">5.56%</td><td class="num">6.24%</td></tr><tr><td><strong>Midpoint</strong></td><td class="num">$1,600,000</td><td class="num">$320,000</td><td class="num">$444.69</td><td class="num">11.62</td><td class="num">10.69</td><td class="num">5.67%</td><td class="num">6.36%</td></tr><tr><td><strong>Range bottom</strong></td><td class="num">$1,575,000</td><td class="num">$315,000</td><td class="num">$437.74</td><td class="num">11.44</td><td class="num">10.52</td><td class="num">5.77%</td><td class="num">6.48%</td></tr></tbody>
   </table></div>
   <p class="narrative">Property taxes reassess at the sale price, so the net operating income and therefore the capitalization rate are recalculated at every rung above.</p>
 </div>
@@ -841,13 +866,13 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
         <p class="os-note os-note-foot">Illustrative financing assumption. Not a quoted or committed loan. A buyer should obtain its own terms.</p>
       </div>
     </div>
-<p class="narrative">$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The recommended range is $1,575,000 to $1,750,000, reconciling price per unit, which reads low against the set because the units are small, against price per square foot, which reads above the median for the same reason.</p>
+<p class="narrative">$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The opinion runs from $1,575,000 up to the $1,625,000 ask, which sits at the top of the range. Price per unit reads low against the set because the units are small, while price per square foot reads above the median for the same reason.</p>
     <div class="price-reveal">
       <div class="summary-trade-range">
         <div class="summary-trade-label">Recommended List Price</div>
         <div class="summary-trade-prices">$1,625,000</div>
       </div>
-      <p style="font-size:12px;color:#6B7280;margin-top:10px;">Supported value range: $1,575,000 to $1,750,000</p>
+      <p style="font-size:12px;color:#6B7280;margin-top:10px;">Supported value range: $1,575,000 to $1,625,000</p>
     </div>
     <div class="condition-note"><div class="condition-note-label">Disclosures</div>
 <p>Every rent, expense and price figure in this analysis comes from the Marcus &amp; Millichap Multifamily Model recalculated and saved on 3 September 2026. Property taxes are reassessed to the recommended value under Proposition 13, so a buyer&#x27;s bill will differ from the current bill. A third-party management fee is underwritten as a cost a buyer will carry, against a property that is self-managed today.</p>
