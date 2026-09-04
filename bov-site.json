@@ -612,7 +612,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.5,
           "image": null,
-          "map_ref": 1
+          "map_ref": 1,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1764141,-118.349646&query_place_id=ChIJDRzb5JyVwoARZmbTJ68fbGw"
         },
         {
           "address": "5245 Riverton Ave, Apt 102, North Hollywood, CA 91601",
@@ -622,7 +623,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.55,
           "image": null,
-          "map_ref": 2
+          "map_ref": 2,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1662839,-118.3657808&query_place_id=ChIJReHdboyVwoAR6dJDsr2Yl3E"
         },
         {
           "address": "140 S Buena Vista St, Apt O, Burbank, CA 91505",
@@ -632,7 +634,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.82,
           "image": null,
-          "map_ref": 3
+          "map_ref": 3,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1601333,-118.3287324&query_place_id=ChIJ-5ucWNu_woARkHD0jiBJLzo"
         },
         {
           "address": "2253 N Niagara St, Apt B, Burbank, CA 91504",
@@ -642,7 +645,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 2.63,
           "image": null,
-          "map_ref": 4
+          "map_ref": 4,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1937595,-118.3426434&query_place_id=ChIJRSbDBAmVwoARxrm6L552GKk"
         },
         {
           "address": "426 N Lomita St, Apt C, Burbank, CA 91506",
@@ -652,7 +656,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.95,
           "image": null,
-          "map_ref": 5
+          "map_ref": 5,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1777244,-118.3207421&query_place_id=ChIJA5k_xl2VwoARW1-WTaEyNXA"
         },
         {
           "address": "600 N Whitnall Hwy, Apt 203, Burbank, CA 91505",
@@ -662,7 +667,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.45,
           "image": null,
-          "map_ref": 6
+          "map_ref": 6,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1621929,-118.3414316&query_place_id=ChIJk1w8EdS_woARC3W71idmWGE"
         },
         {
           "address": "528 N Fairview St, Burbank, CA 91505",
@@ -672,7 +678,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.65,
           "image": null,
-          "map_ref": 7
+          "map_ref": 7,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1642511,-118.3374421&query_place_id=ChIJ79ka_da_woARLWJ99QpfKRg"
         },
         {
           "address": "11100 Camarillo St, Apt 4, North Hollywood, CA 91602",
@@ -682,7 +689,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.75,
           "image": null,
-          "map_ref": 8
+          "map_ref": 8,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1573333,-118.3724711&query_place_id=ChIJuxKxyh--woAResyTpQI72NQ"
         },
         {
           "address": "4418 Ensign Ave, Apt 1, North Hollywood, CA 91602",
@@ -692,7 +700,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.69,
           "image": null,
-          "map_ref": 9
+          "map_ref": 9,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1508583,-118.3708938&query_place_id=ChIJaYr7Zhi-woARmY4v0S1vomg"
         },
         {
           "address": "6212 Beck Ave, Apt 1, North Hollywood, CA 91606",
@@ -702,7 +711,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 3.04,
           "image": null,
-          "map_ref": 10
+          "map_ref": 10,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1834897,-118.3831644&query_place_id=ChIJG687GtuVwoARg3FKLfBhgsg"
         }
       ],
       "sale_comps": [
@@ -726,7 +736,8 @@
           "summary": "Same five-unit scale a third of a mile away, but a larger 4,077 SF building on a smaller 5,659 SF lot and 1941 vintage.",
           "relevance": "Same five-unit scale a third of a mile away, but a larger 4,077 SF building on a smaller 5,659 SF lot and 1941 vintage.",
           "considerations": "One of only three rows in the export carrying both a cap rate and a gross rent multiplier. Closed at 4.70% with a 14.63 multiplier.",
-          "map_ref": 1
+          "map_ref": 1,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1508174,-118.3431026&query_place_id=ChIJ1cf3fsy_woARlwVDB-K3v-I"
         },
         {
           "address": "3650 W Clark Ave, Burbank, CA 91505",
@@ -748,7 +759,8 @@
           "summary": "Same five-unit scale two thirds of a mile away, but a substantially larger 5,856 SF building and 1964 vintage against the subject's 1955.",
           "relevance": "Same five-unit scale two thirds of a mile away, but a substantially larger 5,856 SF building and 1964 vintage against the subject's 1955.",
           "considerations": "Closed at a 5.23% cap rate, the closest income-verified comparable to the subject's basis.",
-          "map_ref": 2
+          "map_ref": 2,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1644572,-118.3446944&query_place_id=ChIJ3bpoatW_woAR2rby5i4xbY0"
         },
         {
           "address": "425 E Magnolia Blvd, Burbank, CA 91501",
@@ -770,7 +782,8 @@
           "summary": "Eight units against the subject's five, on a larger lot nearly three miles east, but nearly identical 1954 vintage.",
           "relevance": "Eight units against the subject's five, on a larger lot nearly three miles east, but nearly identical 1954 vintage.",
           "considerations": "No cap rate or gross rent multiplier reported in the export.",
-          "map_ref": 3
+          "map_ref": 3,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1859314,-118.3091551&query_place_id=ChIJP7GCx0-VwoARYf9vRMLBmME"
         },
         {
           "address": "640 N Whitnall Hwy, Burbank, CA 91505",
@@ -792,7 +805,8 @@
           "summary": "Six units in a 3,482 SF building, which is 580 SF per unit against the subject's 720, so the units are materially smaller.",
           "relevance": "Six units in a 3,482 SF building, which is 580 SF per unit against the subject's 720, so the units are materially smaller.",
           "considerations": "No cap rate reported. The low price per unit reflects unit size rather than a weak location.",
-          "map_ref": 4
+          "map_ref": 4,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1628447,-118.3424864&query_place_id=ChIJ629qRdS_woARe_DZFZuBkYk"
         },
         {
           "address": "136 N Pass Ave, Burbank, CA 91505",
@@ -814,7 +828,8 @@
           "summary": "Same five-unit scale and the same 4,077 SF building as its neighbour at 140 N Pass, a third of a mile away, 1941 vintage.",
           "relevance": "Same five-unit scale and the same 4,077 SF building as its neighbour at 140 N Pass, a third of a mile away, 1941 vintage.",
           "considerations": "Closed at a 5.10% cap rate and $322,000 per unit, the lowest per-unit figure among the arm's length five-unit sales.",
-          "map_ref": 5
+          "map_ref": 5,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.150669,-118.343019&query_place_id=ChIJ-1Rpf8y_woARX5zVFgR7CpA"
         },
         {
           "address": "1610 Grismer Ave, Burbank, CA 91504",
@@ -836,7 +851,8 @@
           "summary": "Six units on a 13,068 SF lot, nearly double the subject's, almost three miles north.",
           "relevance": "Six units on a 13,068 SF lot, nearly double the subject's, almost three miles north.",
           "considerations": "Reported at a 7.09% cap rate, well above every other income-verified row in the set, which suggests a materially different operating basis.",
-          "map_ref": 6
+          "map_ref": 6,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1930467,-118.3251118&query_place_id=ChIJfzanBRWVwoARo1qfvwOWSrM"
         },
         {
           "address": "1721 Scott Rd, Burbank, CA 91504",
@@ -858,7 +874,8 @@
           "summary": "Ten units, double the subject's scale, on an 11,468 SF lot almost three miles north.",
           "relevance": "Ten units, double the subject's scale, on an 11,468 SF lot almost three miles north.",
           "considerations": "One of only three rows carrying both metrics: a 5.73% cap rate and a 12.10 gross rent multiplier.",
-          "map_ref": 7
+          "map_ref": 7,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1943459,-118.323895&query_place_id=ChIJ8RA9mhWVwoARnzbTL1DsALo"
         },
         {
           "address": "603 N Kenneth Rd, Burbank, CA 91501",
@@ -880,7 +897,8 @@
           "summary": "Same five-unit scale but a larger 5,488 SF building and 1963 vintage, more than three miles east.",
           "relevance": "Same five-unit scale but a larger 5,488 SF building and 1963 vintage, more than three miles east.",
           "considerations": "Closed at a 4.65% cap rate, the lowest in the set.",
-          "map_ref": 8
+          "map_ref": 8,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1915053,-118.306704&query_place_id=ChIJI8WNQEmVwoARIFHTCSmB4IQ"
         },
         {
           "address": "3311 W Alameda Ave, Burbank, CA 91505",
@@ -902,7 +920,8 @@
           "summary": "Closest sale in the set at under a third of a mile and nearly identical 1954 vintage, but eight units against the subject's five.",
           "relevance": "Closest sale in the set at under a third of a mile and nearly identical 1954 vintage, but eight units against the subject's five.",
           "considerations": "No cap rate reported. The highest price per square foot in the set at $520.56.",
-          "map_ref": 9
+          "map_ref": 9,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1555299,-118.337034&query_place_id=ChIJITMQsc-_woARvxE1nFmpdbE"
         },
         {
           "address": "235 W Tujunga Ave, Burbank, CA 91502",
@@ -924,7 +943,8 @@
           "summary": "Eight units in a 4,534 SF building, which is 567 SF per unit against the subject's 720.",
           "relevance": "Eight units in a 4,534 SF building, which is 567 SF per unit against the subject's 720.",
           "considerations": "Reported at an 8.13% cap rate, far above every other row in the set. Sold the same day and at the same price as the adjacent 237 W Tujunga Ave, which suggests an allocated or paired transaction, so it is weighted low.",
-          "map_ref": 10
+          "map_ref": 10,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1732315,-118.3134961&query_place_id=ChIJvS9Kf1iVwoARlU-nRVMu9F4"
         },
         {
           "address": "606 N 6th St, Burbank, CA 91501",
@@ -946,7 +966,8 @@
           "summary": "Eight units in a 10,800 SF building, triple the subject's building area, three miles east.",
           "relevance": "Eight units in a 10,800 SF building, triple the subject's building area, three miles east.",
           "considerations": "Closed at a 4.35% cap rate. The lowest price per square foot in the set at $196.30, reflecting the unusually large building area.",
-          "map_ref": 11
+          "map_ref": 11,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1895369,-118.3087686&query_place_id=ChIJ47yILk-VwoARztMKdpkJx3M"
         },
         {
           "address": "812 N Glenoaks Blvd, Burbank, CA 91502",
@@ -968,7 +989,8 @@
           "summary": "Six units in a 3,529 SF building, so 588 SF per unit against the subject's 720, on a larger 9,404 SF lot.",
           "relevance": "Six units in a 3,529 SF building, so 588 SF per unit against the subject's 720, on a larger 9,404 SF lot.",
           "considerations": "No cap rate reported. Fronts Glenoaks Blvd, an arterial.",
-          "map_ref": 12
+          "map_ref": 12,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1889416,-118.3136852&query_place_id=ChIJR0EceUaVwoARsWuaP5ZRYlg"
         },
         {
           "address": "310-312 Cornell Dr, Burbank, CA 91504",
@@ -990,7 +1012,8 @@
           "summary": "Six units in a 3,770 SF building on a 7,405 SF lot, both within a hundred square feet of the subject's lot, and 1952 vintage against the subject's 1955.",
           "relevance": "Six units in a 3,770 SF building on a 7,405 SF lot, both within a hundred square feet of the subject's lot, and 1952 vintage against the subject's 1955.",
           "considerations": "The single most complete comparable in the set: a 4.49% cap rate, a 12.31 gross rent multiplier, and $325,000 per unit.",
-          "map_ref": 13
+          "map_ref": 13,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1900298,-118.3175444&query_place_id=ChIJBU4hKUGVwoARCSMssE1E8Os"
         }
       ],
       "active_comps": [],
@@ -1514,7 +1537,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.32,
           "image": null,
-          "map_ref": 1
+          "map_ref": 1,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1764141,-118.349646&query_place_id=ChIJDRzb5JyVwoARZmbTJ68fbGw"
         },
         {
           "address": "5245 Riverton Ave, Apt 102, North Hollywood, CA 91601",
@@ -1524,7 +1548,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.91,
           "image": null,
-          "map_ref": 2
+          "map_ref": 2,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1662839,-118.3657808&query_place_id=ChIJReHdboyVwoAR6dJDsr2Yl3E"
         },
         {
           "address": "140 S Buena Vista St, Apt O, Burbank, CA 91505",
@@ -1534,7 +1559,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.55,
           "image": null,
-          "map_ref": 3
+          "map_ref": 3,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1601333,-118.3287324&query_place_id=ChIJ-5ucWNu_woARkHD0jiBJLzo"
         },
         {
           "address": "2253 N Niagara St, Apt B, Burbank, CA 91504",
@@ -1544,7 +1570,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.58,
           "image": null,
-          "map_ref": 4
+          "map_ref": 4,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1937595,-118.3426434&query_place_id=ChIJRSbDBAmVwoARxrm6L552GKk"
         },
         {
           "address": "426 N Lomita St, Apt C, Burbank, CA 91506",
@@ -1554,7 +1581,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.81,
           "image": null,
-          "map_ref": 5
+          "map_ref": 5,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1777244,-118.3207421&query_place_id=ChIJA5k_xl2VwoARW1-WTaEyNXA"
         },
         {
           "address": "600 N Whitnall Hwy, Apt 203, Burbank, CA 91505",
@@ -1564,7 +1592,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.9,
           "image": null,
-          "map_ref": 6
+          "map_ref": 6,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1621929,-118.3414316&query_place_id=ChIJk1w8EdS_woARC3W71idmWGE"
         },
         {
           "address": "528 N Fairview St, Burbank, CA 91505",
@@ -1574,7 +1603,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 0.98,
           "image": null,
-          "map_ref": 7
+          "map_ref": 7,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1642511,-118.3374421&query_place_id=ChIJ79ka_da_woARLWJ99QpfKRg"
         },
         {
           "address": "11100 Camarillo St, Apt 4, North Hollywood, CA 91602",
@@ -1584,7 +1614,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.57,
           "image": null,
-          "map_ref": 8
+          "map_ref": 8,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1573333,-118.3724711&query_place_id=ChIJuxKxyh--woAResyTpQI72NQ"
         },
         {
           "address": "4418 Ensign Ave, Apt 1, North Hollywood, CA 91602",
@@ -1594,7 +1625,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.84,
           "image": null,
-          "map_ref": 9
+          "map_ref": 9,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1508583,-118.3708938&query_place_id=ChIJaYr7Zhi-woARmY4v0S1vomg"
         },
         {
           "address": "6212 Beck Ave, Apt 1, North Hollywood, CA 91606",
@@ -1604,7 +1636,8 @@
           "square_feet_basis": "labelled_estimate",
           "distance": 1.97,
           "image": null,
-          "map_ref": 10
+          "map_ref": 10,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1834897,-118.3831644&query_place_id=ChIJG687GtuVwoARg3FKLfBhgsg"
         }
       ],
       "sale_comps": [
@@ -1628,7 +1661,8 @@
           "summary": "Closest triplex sale to the subject at under a quarter mile, identical 1948 vintage, and the smallest building in the set.",
           "relevance": "Closest triplex sale to the subject at under a quarter mile, identical 1948 vintage, and the smallest building in the set.",
           "considerations": "Closed 12.0% above a $1,049,000 ask in 50 days.",
-          "map_ref": 1
+          "map_ref": 1,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1735096,-118.3487291&query_place_id=ChIJd6Dm3YKVwoARHorgGiVvMWc"
         },
         {
           "address": "619 N Hollywood Way, Burbank, CA 91505",
@@ -1650,7 +1684,8 @@
           "summary": "Three separate buildings on a 5,151 SF lot, an unusual configuration, and fronting Hollywood Way rather than a residential street.",
           "relevance": "Three separate buildings on a 5,151 SF lot, an unusual configuration, and fronting Hollywood Way rather than a residential street.",
           "considerations": "Closed at full ask in 55 days.",
-          "map_ref": 2
+          "map_ref": 2,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.161564,-118.3442818&query_place_id=ChIJxXXDk9S_woARuiQsShuvWd0"
         },
         {
           "address": "716 E San Jose Ave, Burbank, CA 91501",
@@ -1672,7 +1707,8 @@
           "summary": "Substantially larger building at 3,182 SF and the oldest vintage in the set at 1922, nearly three miles east of the subject.",
           "relevance": "Substantially larger building at 3,182 SF and the oldest vintage in the set at 1922, nearly three miles east of the subject.",
           "considerations": "Closed 6.5% above a $1,550,000 ask in 40 days.",
-          "map_ref": 3
+          "map_ref": 3,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1898779,-118.305856&query_place_id=ChIJY6y1pU6VwoAR61vYC7Mw7VA"
         },
         {
           "address": "242 N Cordova St, Burbank, CA 91505",
@@ -1694,7 +1730,8 @@
           "summary": "Nearest match in the set on vintage and building size: 1949 against 1948, and 2,320 SF against the subject's 2,578 SF.",
           "relevance": "Nearest match in the set on vintage and building size: 1949 against 1948, and 2,320 SF against the subject's 2,578 SF.",
           "considerations": "Closed 15.6% above a $995,000 ask in 32 days, the largest premium to list in the set.",
-          "map_ref": 4
+          "map_ref": 4,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1561577,-118.339835&query_place_id=ChIJU2vuBM6_woAR97YAgiA_aas"
         },
         {
           "address": "1212 W Victory Blvd, Burbank, CA 91506",
@@ -1716,7 +1753,8 @@
           "summary": "Smallest building in the set at 1,912 SF and fronting Victory Blvd, an arterial, rather than a residential street.",
           "relevance": "Smallest building in the set at 1,912 SF and fronting Victory Blvd, an arterial, rather than a residential street.",
           "considerations": "Off-market sale with no MLS listing history.",
-          "map_ref": 5
+          "map_ref": 5,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1840219,-118.3259088&query_place_id=ChIJATFJCmmVwoARRx61G5Wca1M"
         },
         {
           "address": "419 W Riverside Dr, Burbank, CA 91506",
@@ -1738,7 +1776,8 @@
           "summary": "Comparable 1947 vintage and 2,222 SF building, but the highest price per square foot in the set at $765.",
           "relevance": "Comparable 1947 vintage and 2,222 SF building, but the highest price per square foot in the set at $765.",
           "considerations": "A six-week resale that reads as a completed renovation, so its pricing reflects a finished product rather than original condition.",
-          "map_ref": 6
+          "map_ref": 6,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1620828,-118.3081016&query_place_id=ChIJJWxL__C_woARoSLDh6F_ICY"
         },
         {
           "address": "1923 Grismer Ave, Burbank, CA 91504",
@@ -1760,7 +1799,8 @@
           "summary": "Similar 2,504 SF building size with six bedrooms, but 1923 vintage, the second oldest in the set.",
           "relevance": "Similar 2,504 SF building size with six bedrooms, but 1923 vintage, the second oldest in the set.",
           "considerations": "Off-market sale and the lowest price per unit in the set at $353,333.",
-          "map_ref": 7
+          "map_ref": 7,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1962875,-118.3261238&query_place_id=ChIJCRp5hhaVwoARqWFJQ9td63w"
         },
         {
           "address": "1025 W Clark Ave, Burbank, CA 91506",
@@ -1782,7 +1822,8 @@
           "summary": "Close match on building size at 2,304 SF and vintage at 1952, on the largest lot in the set at 8,324 SF.",
           "relevance": "Close match on building size at 2,304 SF and vintage at 1952, on the largest lot in the set at 8,324 SF.",
           "considerations": "Off-market sale.",
-          "map_ref": 8
+          "map_ref": 8,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1735709,-118.3189961&query_place_id=ChIJBS_KE1-VwoAR1mUiztOdJhg"
         },
         {
           "address": "1980 N Ontario St, Burbank, CA 91505",
@@ -1804,7 +1845,8 @@
           "summary": "Close match on building size at 2,325 SF, vintage at 1951, and lot size at 6,098 SF, with six bedrooms against the subject's five.",
           "relevance": "Close match on building size at 2,325 SF, vintage at 1951, and lot size at 6,098 SF, with six bedrooms against the subject's five.",
           "considerations": "Off-market sale.",
-          "map_ref": 9
+          "map_ref": 9,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1898753,-118.3443342&query_place_id=ChIJB8pPRwqVwoARp82BZq8Ox40"
         },
         {
           "address": "1205 W Alameda Ave, Burbank, CA 91506",
@@ -1826,7 +1868,8 @@
           "summary": "Smaller building at 2,085 SF on a larger 7,078 SF lot, 1951 vintage.",
           "relevance": "Smaller building at 2,085 SF on a larger 7,078 SF lot, 1951 vintage.",
           "considerations": "Off-market sale.",
-          "map_ref": 10
+          "map_ref": 10,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.1627926,-118.3153583&query_place_id=ChIJiZT7iuW_woAR0cNSdZ625X0"
         },
         {
           "address": "303 S Kenneth Rd, Burbank, CA 91501",
@@ -1848,7 +1891,8 @@
           "summary": "Roughly double the median building size in the set at 4,500 SF, with seven bedrooms and six bathrooms, and 1976 vintage against the subject's 1948.",
           "relevance": "Roughly double the median building size in the set at 4,500 SF, with seven bedrooms and six bathrooms, and 1976 vintage against the subject's 1948.",
           "considerations": "Off-market sale and the highest price per unit in the set at $666,833.",
-          "map_ref": 11
+          "map_ref": 11,
+          "map_url": "https://www.google.com/maps/search/?api=1&query=34.186056,-118.299207&query_place_id=ChIJqblJSq3qwoARwBWCLkWPwvA"
         }
       ],
       "active_comps": [],
@@ -4796,8 +4840,8 @@
       "identity": "f6e9c98089aa666ae194e28a0e9eef5da197d8d939d0d0b2904fb4c6ee363226",
       "financial_inputs": "86492b5fb428f835ca989767c603fe45513e09819316c809f5ddccbb748388ff",
       "pricing_decision": "e9b87792abb591fc6a5a45d4f8b5e105472d864947b2dfd0bd6c2145bab93036",
-      "sale_comps": "27ec5666c004b6e0c664aacdfd28b29faac2f5b6f316c97494787af23c896420",
-      "rent_comps": "bdaa0859985d0cf54af816bee4850d23e5bc4b045e75cbe2fbad679e3c101471",
+      "sale_comps": "173ca54bd6f5b795a681093c2f303c4ddb6f60f6c64a10bae23c13037ab8c66a",
+      "rent_comps": "53ba599308c8de9b444d9026b8dab86e180fae14be8a264e8ee9c69a3a06870d",
       "copy": "ca05e3b2c0c6aa01953da7b17ca36aac937269d4ae7489cdd0275507675ed61f",
       "media_selection": "7de8d93e835522fc57f3d9bf4725f7aa878c77bba71958b3d280c0abcecf033f",
       "regulatory_conclusions": "4555644df8151c60736017ac4390aec17d372631b97460ab6d2df9c72780ba14"
@@ -4805,7 +4849,7 @@
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-04T01:56:04+00:00",
+    "generated": "2026-09-04T16:02:25+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,

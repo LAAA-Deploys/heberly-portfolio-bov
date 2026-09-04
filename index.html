@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="laaa-figures-pulled" content="2026-09-04T01:56:04+00:00">
+<meta name="robots" content="noindex, nofollow">
+<meta name="laaa-figures-pulled" content="2026-09-04T16:02:25+00:00">
 <meta name="description" content="8-Unit Two-Property Multifamily Portfolio | LAAA Team - Marcus &amp; Millichap">
 <meta property="og:title" content="Broker Opinion of Value - Heberly Trust Burbank Portfolio">
 <meta property="og:description" content="8-Unit Two-Property Multifamily Portfolio | LAAA Team - Marcus &amp; Millichap">
@@ -500,6 +501,15 @@ td.num, th.num { text-align: right; }
    pin. Co-located rows share a number by design. */
 .map-ref{display:inline-block;min-width:20px;height:20px;line-height:20px;margin-right:8px;
   border-radius:50%;background:#1B3A5C;color:#fff;font-size:11px;font-weight:700;text-align:center;}
+/* Comp addresses link to their own point on Google Maps. Underlined on a dotted
+   rule rather than a full link colour: every address in the table is a link, so
+   colouring them all would repaint the column and pull the eye off the figures
+   beside it, which is what the table is actually for. */
+.comp-link{color:inherit;text-decoration:underline;text-decoration-style:dotted;
+  text-decoration-color:#C5A258;text-underline-offset:3px;}
+.comp-link:hover,.comp-link:focus-visible{color:#1B3A5C;text-decoration-style:solid;}
+.comp-narratives .comp-link{text-decoration-color:#C5A258;}
+@media print{.comp-link{text-decoration:none;color:inherit;}}
 
 /* ---- Buyout Scenarios (opt-in section) ---- */
 .bm-wrap{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:22px 0 8px}
@@ -657,11 +667,11 @@ table.bm-soft tr.highlight td{background:#FFF8E7;border-left:3px solid #C5A258;f
   <div class="team-grid"></div>
   <div class="condition-note"><div class="condition-note-label">Key Achievements</div>
     <p class="achievements-list">
-      &bull; <strong>Chairman&#x27;s Club</strong> - Marcus &amp; Millichap&#x27;s top-tier annual honor<br>
-      &bull; <strong>#1 in Multifamily Transactions, Los Angeles County</strong> - CoStar verified, trailing 3 years<br>
-      &bull; <strong>10 Consecutive Sales Recognition Awards</strong> - <br>
-      &bull; <strong>55 consecutive quarters with a closing</strong> - 96.7% apartment pricing accuracy<br>
-      &bull; <strong>494 closed transactions</strong> - $1.56B in sales volume
+      &bull; <strong>Chairman&#x27;s Club</strong>, Marcus &amp; Millichap&#x27;s top-tier annual honor<br>
+      &bull; <strong>#1 in Multifamily Transactions, Los Angeles County</strong>, CoStar verified, trailing 3 years<br>
+      &bull; <strong>10 Consecutive Sales Recognition Awards</strong>, <br>
+      &bull; <strong>55 consecutive quarters with a closing</strong>, 96.7% apartment pricing accuracy<br>
+      &bull; <strong>494 closed transactions</strong>, $1.56B in sales volume
     </p></div>
   <div class="press-strip"><span class="press-strip-label">As Featured In</span><span class="press-logo">BISNOW</span><span class="press-logo">YAHOO FINANCE</span><span class="press-logo">CONNECT CRE</span><span class="press-logo">SFVBJ</span><span class="press-logo">THE PINNACLE LIST</span></div>
 </div>
