@@ -349,7 +349,8 @@ def _opinion_of_value(
         }
 
     ladder = [rung("Suggested list price", price)]
-    # When the opinion tops AT the ask, a separate "Range top" rung is the same
+    # When the opinion tops AT the ask, a separate "Estimated value" rung (the
+    # top of the opinion range) is the same
     # price twice: identical figures on two rows, which reads as a mistake and
     # invites the seller to wonder which one is real. Omit it ONLY on exact
     # equality. `high > price` was wrong here and CI caught it: an ask deliberately
@@ -357,7 +358,7 @@ def _opinion_of_value(
     # or above the range"), and dropping the rung there would hide the real top of
     # the opinion from the seller, which is the Moorpark failure inverted.
     if high != price:
-        ladder.append(rung("Range top", high))
+        ladder.append(rung("Estimated value", high))
     ladder.append(rung("Midpoint", (low + high) / 2))
     ladder.append(rung("Range bottom", low))
     return ladder

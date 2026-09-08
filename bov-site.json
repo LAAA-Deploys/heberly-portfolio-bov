@@ -200,9 +200,9 @@
   "portfolio": {
     "total_units": 8,
     "total_current_rent": 230100.0,
-    "total_noi": 153806,
-    "portfolio_price": 2770000,
-    "portfolio_price_basis": "Sum of the two member recommendations: $1,625,000 for 300 N Screenland Dr and $1,145,000 for 1243 N Kenwood St, each taken from the M&M Multifamily Model recalculated and saved in Excel on 3 September 2026."
+    "total_noi": 151706,
+    "portfolio_price": 2945000,
+    "portfolio_price_basis": "Sum of the two member suggested list prices: $1,750,000 for 300 N Screenland Dr and $1,195,000 for 1243 N Kenwood St, each from the M&M Multifamily Model recalculated and saved in Excel on 8 September 2026. Estimated values are $1,700,000 and $1,150,000."
   },
   "properties": [
     {
@@ -268,26 +268,50 @@
       "renovated_year": null,
       "parking": "On-site parking count is pending confirmation with ownership",
       "hero": "images/300-screenland-screenland-01.jpg",
-      "price": 1625000,
-      "price_per_unit": 325000.0,
-      "price_per_sf": 451.64,
-      "value_range": "$1,575,000 to $1,625,000",
+      "price": 1750000,
+      "price_per_unit": 350000.0,
+      "price_per_sf": 486.38,
+      "value_range": "$1,600,000 to $1,700,000",
       "opinion_of_value": [
         {
           "label": "Suggested list price",
-          "price": 1625000,
-          "price_per_unit": 325000.0,
-          "price_per_sf": 451.6397998888271,
+          "price": 1750000,
+          "price_per_unit": 350000.0,
+          "price_per_sf": 486.38132295719845,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 11.801016702977487,
-          "grm_market": 10.855043420173681,
-          "cap_current": 5.56,
-          "cap_market": 6.240492307692308
+          "grm_current": 12.70878721859114,
+          "grm_market": 11.690046760187041,
+          "cap_current": 5.077142857142857,
+          "cap_market": 5.709028571428571
+        },
+        {
+          "label": "Estimated value",
+          "price": 1700000,
+          "price_per_unit": 340000.0,
+          "price_per_sf": 472.48471372984994,
+          "price_per_land_sf": null,
+          "price_per_buildable_unit": null,
+          "grm_current": 12.345679012345679,
+          "grm_market": 11.356045424181696,
+          "cap_current": 5.261764705882353,
+          "cap_market": 5.9122352941176475
         },
         {
           "label": "Midpoint",
-          "price": 1600000.0,
+          "price": 1650000.0,
+          "price_per_unit": 330000.0,
+          "price_per_sf": 458.5881045025014,
+          "price_per_land_sf": null,
+          "price_per_buildable_unit": null,
+          "grm_current": 11.982570806100219,
+          "grm_market": 11.022044088176353,
+          "cap_current": 5.457575757575758,
+          "cap_market": 6.127757575757576
+        },
+        {
+          "label": "Range bottom",
+          "price": 1600000,
           "price_per_unit": 320000.0,
           "price_per_sf": 444.6914952751529,
           "price_per_land_sf": null,
@@ -296,18 +320,6 @@
           "grm_market": 10.68804275217101,
           "cap_current": 5.6656249999999995,
           "cap_market": 6.35675
-        },
-        {
-          "label": "Range bottom",
-          "price": 1575000,
-          "price_per_unit": 315000.0,
-          "price_per_sf": 437.7431906614786,
-          "price_per_land_sf": null,
-          "price_per_buildable_unit": null,
-          "grm_current": 11.437908496732026,
-          "grm_market": 10.521042084168336,
-          "cap_current": 5.7746031746031745,
-          "cap_market": 6.476698412698413
         }
       ],
       "scheduled_rent": [
@@ -322,23 +334,23 @@
         68.0,
         68.0
       ],
-      "grm_current": 11.801016702977487,
-      "grm_market": 10.855043420173681,
-      "cap_current": 5.56,
-      "cap_market": 6.240492307692308,
+      "grm_current": 12.70878721859114,
+      "grm_market": 11.690046760187041,
+      "cap_current": 5.077142857142857,
+      "cap_market": 5.709028571428571,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 90350,
-      "noi_market": 101408,
+      "noi_current": 88850,
+      "noi_market": 99908,
       "tax_rate": 1.2,
       "tax_anchor": {
-        "ad_valorem": 19500,
+        "ad_valorem": 21000,
         "flat_assessments": 0,
         "expense_line": "Taxes"
       },
-      "expense_total": 44035,
-      "expense_per_unit": 8807.0,
-      "expense_per_sf": 12.238743746525847,
+      "expense_total": 45535,
+      "expense_per_unit": 9107.0,
+      "expense_per_sf": 12.655642023346303,
       "unit_mix": [
         {
           "count": 3,
@@ -386,40 +398,40 @@
           146025
         ],
         "expenses": [
-          44035,
-          44617
+          45535,
+          46117
         ],
         "expense_ratio": [
-          32.767794024630724,
-          30.55435713062832
+          33.88399002864903,
+          31.581578496832734
         ],
         "noi": [
-          90350,
-          101408
+          88850,
+          99908
         ],
         "loan_payments": [
-          -70147.41,
-          -70147.41
+          -75543.37,
+          -75543.37
         ],
         "pretax_cf": [
-          20202.589999999997,
-          31260.589999999997
+          13306.630000000005,
+          24364.630000000005
         ],
         "pretax_cf_pct": [
-          3.1080907692307687,
-          4.809321538461537
+          1.9009471428571436,
+          3.480661428571429
         ],
         "principal_reduction": [
           11973,
           12712
         ],
         "total_return": [
-          32175.589999999997,
-          43972.59
+          25279.630000000005,
+          37076.630000000005
         ],
         "total_return_pct": [
-          4.950090769230768,
-          6.765013846153846
+          3.611375714285715,
+          5.296661428571429
         ]
       },
       "expense_lines": [
@@ -455,8 +467,8 @@
         ],
         [
           "Taxes",
-          19500,
-          19500,
+          21000,
+          21000,
           "9"
         ],
         [
@@ -525,10 +537,10 @@
       },
       "financing_structure": "new_financing",
       "financing": {
-        "loan_amount": 975000,
+        "loan_amount": 1050000,
         "rate": 6.0,
         "amortization": 30,
-        "dcr": 1.29,
+        "dcr": 1.18,
         "basis": "illustrative_assumption"
       },
       "highlights": [
@@ -568,7 +580,7 @@
         "Ten active asking rents frame the market. One bedrooms ask $1,850 to $2,195 and two bedrooms ask $2,295 to $3,600. The subject's three 1 Bed units are in place at $2,025 to $2,100, inside the one bedroom range, and the two 2 Bed units are in place at $2,625 and $2,700. The two exact 2 Bed, 1 Bath configuration matches ask $2,295 and $2,495, both below the subject. These are asking rents from listing sources, not signed leases, and they are not represented as achieved subject rents."
       ],
       "valuation_narrative": [
-        "$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The opinion runs from $1,575,000 up to the $1,625,000 ask, which sits at the top of the range. Price per unit reads low against the set because the units are small, while price per square foot reads above the median for the same reason."
+        "Our estimated value is $1,700,000, with an opinion range of $1,600,000 to $1,700,000. The suggested list price is $1,750,000, or $350,000 per unit and $486 per SF, a 5.08% cap on current net operating income of $88,850 and a 12.71 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 33.88% of effective gross revenue. Price per unit reads low against the comparable set because the units are small, while price per square foot reads above the median for the same reason."
       ],
       "strategy": [
         {
@@ -1203,46 +1215,58 @@
       "renovated_year": null,
       "parking": "On-site parking count is pending confirmation with ownership",
       "hero": "images/1243-kenwood-kenwood-01.jpg",
-      "price": 1145000,
-      "price_per_unit": 381666.67,
-      "price_per_sf": 444.14,
-      "value_range": "$1,060,000 to $1,145,000",
+      "price": 1195000,
+      "price_per_unit": 398333.33,
+      "price_per_sf": 463.54,
+      "value_range": "$1,100,000 to $1,150,000",
       "opinion_of_value": [
         {
           "label": "Suggested list price",
-          "price": 1145000,
-          "price_per_unit": 381666.6666666667,
-          "price_per_sf": 444.14274631497284,
+          "price": 1195000,
+          "price_per_unit": 398333.3333333333,
+          "price_per_sf": 463.53762606671836,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 12.391774891774892,
-          "grm_market": 11.657503563429037,
-          "cap_current": 5.542008733624454,
-          "cap_market": 6.035021834061135
+          "grm_current": 12.932900432900434,
+          "grm_market": 12.16656485440847,
+          "cap_current": 5.259916317991632,
+          "cap_market": 5.732301255230126
+        },
+        {
+          "label": "Estimated value",
+          "price": 1150000,
+          "price_per_unit": 383333.3333333333,
+          "price_per_sf": 446.0822342901474,
+          "price_per_land_sf": null,
+          "price_per_buildable_unit": null,
+          "grm_current": 12.445887445887445,
+          "grm_market": 11.70840969252698,
+          "cap_current": 5.512695652173913,
+          "cap_market": 6.003565217391305
         },
         {
           "label": "Midpoint",
-          "price": 1102500.0,
-          "price_per_unit": 367500.0,
-          "price_per_sf": 427.6570985259891,
+          "price": 1125000.0,
+          "price_per_unit": 375000.0,
+          "price_per_sf": 436.3847944142746,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 11.931818181818182,
-          "grm_market": 11.224801466096517,
-          "cap_current": 5.801904761904762,
-          "cap_market": 6.3139229024943315
+          "grm_current": 12.175324675324676,
+          "grm_market": 11.453879047037264,
+          "cap_current": 5.661866666666667,
+          "cap_market": 6.1636444444444445
         },
         {
           "label": "Range bottom",
-          "price": 1060000,
-          "price_per_unit": 353333.3333333333,
-          "price_per_sf": 411.17145073700544,
+          "price": 1100000,
+          "price_per_unit": 366666.6666666667,
+          "price_per_sf": 426.68735453840185,
           "price_per_land_sf": null,
           "price_per_buildable_unit": null,
-          "grm_current": 11.471861471861471,
-          "grm_market": 10.792099368764,
-          "cap_current": 6.082641509433962,
-          "cap_market": 6.615188679245283
+          "grm_current": 11.904761904761905,
+          "grm_market": 11.199348401547546,
+          "cap_current": 5.817818181818182,
+          "cap_market": 6.331
         }
       ],
       "scheduled_rent": [
@@ -1257,23 +1281,23 @@
         0.0,
         0.0
       ],
-      "grm_current": 12.391774891774892,
-      "grm_market": 11.657503563429037,
-      "cap_current": 5.542008733624454,
-      "cap_market": 6.035021834061135,
+      "grm_current": 12.932900432900434,
+      "grm_market": 12.16656485440847,
+      "cap_current": 5.259916317991632,
+      "cap_market": 5.732301255230126,
       "cap_current_basis": "LAAA calculation: current NOI / recommended value",
       "cap_market_basis": "LAAA calculation: market NOI / recommended value",
-      "noi_current": 63456,
-      "noi_market": 69101,
+      "noi_current": 62856,
+      "noi_market": 68501,
       "tax_rate": 1.2,
       "tax_anchor": {
-        "ad_valorem": 13740,
+        "ad_valorem": 14340,
         "flat_assessments": 0,
         "expense_line": "Taxes"
       },
-      "expense_total": 26172,
-      "expense_per_unit": 8724.0,
-      "expense_per_sf": 10.152055857253686,
+      "expense_total": 26772,
+      "expense_per_unit": 8924.0,
+      "expense_per_sf": 10.384794414274632,
       "unit_mix": [
         {
           "count": 1,
@@ -1321,40 +1345,40 @@
           95273
         ],
         "expenses": [
-          26172,
-          26172
+          26772,
+          26772
         ],
         "expense_ratio": [
-          29.20069621100549,
-          27.47053205000367
+          29.87012987012987,
+          28.100301239595687
         ],
         "noi": [
-          63456,
-          69101
+          62856,
+          68501
         ],
         "loan_payments": [
-          -49426.95,
-          -49426.95
+          -51585.33,
+          -51585.33
         ],
         "pretax_cf": [
-          14029.050000000003,
-          19674.050000000003
+          11270.669999999998,
+          16915.67
         ],
         "pretax_cf_pct": [
-          3.063111353711791,
-          4.295644104803494
+          2.3578807531380748,
+          3.5388430962343094
         ],
         "principal_reduction": [
           4155,
           8693
         ],
         "total_return": [
-          18184.050000000003,
-          28367.050000000003
+          15425.669999999998,
+          25608.67
         ],
         "total_return_pct": [
-          3.970316593886464,
-          6.193679039301311
+          3.227127615062761,
+          5.357462343096234
         ]
       },
       "expense_lines": [
@@ -1390,8 +1414,8 @@
         ],
         [
           "Taxes",
-          13740,
-          13740,
+          14340,
+          14340,
           "8"
         ],
         [
@@ -1450,10 +1474,10 @@
       },
       "financing_structure": "new_financing",
       "financing": {
-        "loan_amount": 687000,
+        "loan_amount": 717000,
         "rate": 6.0,
         "amortization": 30,
-        "dcr": 1.28,
+        "dcr": 1.22,
         "basis": "illustrative_assumption"
       },
       "highlights": [
@@ -1493,7 +1517,7 @@
         "Ten active asking rents within two miles frame the market. One bedrooms ask $1,850 to $2,195 and two bedrooms ask $2,295 to $3,600. The subject's 1 Bed is in place at $2,200, above every one bedroom in the set, and the two 2 Bed units are in place at $2,700 and $2,800, inside the two bedroom range. The two exact 2 Bed, 1 Bath configuration matches ask $2,295 and $2,495, both below the subject, and neither has in-unit laundry. These are asking rents from listing sources, not signed leases, and they are not represented as achieved subject rents."
       ],
       "valuation_narrative": [
-        "$1,145,000, or $381,667 per unit and $444.14 per SF. That is a 5.54% cap on current net operating income of $63,456 and a 12.39 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.20% of effective gross income. The opinion runs from $1,060,000 up to the $1,145,000 ask, which sits at the top of the range. The floor is the lowest price per unit in the trimmed nine-sale set."
+        "Our estimated value is $1,150,000, with an opinion range of $1,100,000 to $1,150,000. The suggested list price is $1,195,000, or $398,333 per unit and $464 per SF, a 5.26% cap on current net operating income of $62,856 and a 12.93 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.87% of effective gross revenue. At $398,333 per unit the list price sits just under the $408,333 median of the trimmed nine-sale comparable set."
       ],
       "strategy": [
         {
@@ -2192,7 +2216,7 @@
           },
           "financial_analysis": {
             "valuation_narrative": [
-              "$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The opinion runs from $1,575,000 up to the $1,625,000 ask, which sits at the top of the range. Price per unit reads low against the set because the units are small, while price per square foot reads above the median for the same reason."
+              "Our estimated value is $1,700,000, with an opinion range of $1,600,000 to $1,700,000. The suggested list price is $1,750,000, or $350,000 per unit and $486 per SF, a 5.08% cap on current net operating income of $88,850 and a 12.71 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 33.88% of effective gross revenue. Price per unit reads low against the comparable set because the units are small, while price per square foot reads above the median for the same reason."
             ],
             "disclosures": [
               "Every rent, expense and price figure in this analysis comes from the Marcus & Millichap Multifamily Model recalculated and saved on 3 September 2026. Property taxes are reassessed to the recommended value under Proposition 13, so a buyer's bill will differ from the current bill. A third-party management fee is underwritten as a cost a buyer will carry, against a property that is self-managed today.",
@@ -2689,7 +2713,7 @@
               "comps-sale:conclusions"
             ],
             "framed_as": "broker opinion of value",
-            "text": "$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The opinion runs from $1,575,000 up to the $1,625,000 ask, which sits at the top of the range. Price per unit reads low against the set because the units are small, while price per square foot reads above the median for the same reason."
+            "text": "Our estimated value is $1,700,000, with an opinion range of $1,600,000 to $1,700,000. The suggested list price is $1,750,000, or $350,000 per unit and $486 per SF, a 5.08% cap on current net operating income of $88,850 and a 12.71 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 33.88% of effective gross revenue. Price per unit reads low against the comparable set because the units are small, while price per square foot reads above the median for the same reason."
           },
           {
             "id": "disclosure-1",
@@ -2834,7 +2858,7 @@
           },
           "financial_analysis": {
             "valuation_narrative": [
-              "$1,145,000, or $381,667 per unit and $444.14 per SF. That is a 5.54% cap on current net operating income of $63,456 and a 12.39 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.20% of effective gross income. The opinion runs from $1,060,000 up to the $1,145,000 ask, which sits at the top of the range. The floor is the lowest price per unit in the trimmed nine-sale set."
+              "Our estimated value is $1,150,000, with an opinion range of $1,100,000 to $1,150,000. The suggested list price is $1,195,000, or $398,333 per unit and $464 per SF, a 5.26% cap on current net operating income of $62,856 and a 12.93 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.87% of effective gross revenue. At $398,333 per unit the list price sits just under the $408,333 median of the trimmed nine-sale comparable set."
             ],
             "disclosures": [
               "Every rent, expense and price figure in this analysis comes from the Marcus & Millichap Multifamily Model recalculated and saved on 3 September 2026. Property taxes are reassessed to the recommended value under Proposition 13, so a buyer's bill will differ from the current bill. Refuse is carried at $1,440 per year pending confirmation of who pays it at this parcel.",
@@ -3331,7 +3355,7 @@
               "comps-sale:conclusions"
             ],
             "framed_as": "broker opinion of value",
-            "text": "$1,145,000, or $381,667 per unit and $444.14 per SF. That is a 5.54% cap on current net operating income of $63,456 and a 12.39 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.20% of effective gross income. The opinion runs from $1,060,000 up to the $1,145,000 ask, which sits at the top of the range. The floor is the lowest price per unit in the trimmed nine-sale set."
+            "text": "Our estimated value is $1,150,000, with an opinion range of $1,100,000 to $1,150,000. The suggested list price is $1,195,000, or $398,333 per unit and $464 per SF, a 5.26% cap on current net operating income of $62,856 and a 12.93 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.87% of effective gross revenue. At $398,333 per unit the list price sits just under the $408,333 median of the trimmed nine-sale comparable set."
           },
           {
             "id": "disclosure-1",
@@ -3481,7 +3505,7 @@
             },
             "financial_analysis": {
               "valuation_narrative": [
-                "$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The opinion runs from $1,575,000 up to the $1,625,000 ask, which sits at the top of the range. Price per unit reads low against the set because the units are small, while price per square foot reads above the median for the same reason."
+                "Our estimated value is $1,700,000, with an opinion range of $1,600,000 to $1,700,000. The suggested list price is $1,750,000, or $350,000 per unit and $486 per SF, a 5.08% cap on current net operating income of $88,850 and a 12.71 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 33.88% of effective gross revenue. Price per unit reads low against the comparable set because the units are small, while price per square foot reads above the median for the same reason."
               ],
               "disclosures": [
                 "Every rent, expense and price figure in this analysis comes from the Marcus & Millichap Multifamily Model recalculated and saved on 3 September 2026. Property taxes are reassessed to the recommended value under Proposition 13, so a buyer's bill will differ from the current bill. A third-party management fee is underwritten as a cost a buyer will carry, against a property that is self-managed today.",
@@ -3978,7 +4002,7 @@
                 "comps-sale:conclusions"
               ],
               "framed_as": "broker opinion of value",
-              "text": "$1,625,000, or $325,000 per unit and $451.64 per SF. That is a 5.56% cap on current net operating income of $90,350 and an 11.80 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 32.77% of effective gross income. The opinion runs from $1,575,000 up to the $1,625,000 ask, which sits at the top of the range. Price per unit reads low against the set because the units are small, while price per square foot reads above the median for the same reason."
+              "text": "Our estimated value is $1,700,000, with an opinion range of $1,600,000 to $1,700,000. The suggested list price is $1,750,000, or $350,000 per unit and $486 per SF, a 5.08% cap on current net operating income of $88,850 and a 12.71 gross rent multiplier on scheduled rent of $137,700. Operating expenses run 33.88% of effective gross revenue. Price per unit reads low against the comparable set because the units are small, while price per square foot reads above the median for the same reason."
             },
             {
               "id": "disclosure-1",
@@ -4197,7 +4221,7 @@
             },
             "financial_analysis": {
               "valuation_narrative": [
-                "$1,145,000, or $381,667 per unit and $444.14 per SF. That is a 5.54% cap on current net operating income of $63,456 and a 12.39 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.20% of effective gross income. The opinion runs from $1,060,000 up to the $1,145,000 ask, which sits at the top of the range. The floor is the lowest price per unit in the trimmed nine-sale set."
+                "Our estimated value is $1,150,000, with an opinion range of $1,100,000 to $1,150,000. The suggested list price is $1,195,000, or $398,333 per unit and $464 per SF, a 5.26% cap on current net operating income of $62,856 and a 12.93 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.87% of effective gross revenue. At $398,333 per unit the list price sits just under the $408,333 median of the trimmed nine-sale comparable set."
               ],
               "disclosures": [
                 "Every rent, expense and price figure in this analysis comes from the Marcus & Millichap Multifamily Model recalculated and saved on 3 September 2026. Property taxes are reassessed to the recommended value under Proposition 13, so a buyer's bill will differ from the current bill. Refuse is carried at $1,440 per year pending confirmation of who pays it at this parcel.",
@@ -4694,7 +4718,7 @@
                 "comps-sale:conclusions"
               ],
               "framed_as": "broker opinion of value",
-              "text": "$1,145,000, or $381,667 per unit and $444.14 per SF. That is a 5.54% cap on current net operating income of $63,456 and a 12.39 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.20% of effective gross income. The opinion runs from $1,060,000 up to the $1,145,000 ask, which sits at the top of the range. The floor is the lowest price per unit in the trimmed nine-sale set."
+              "text": "Our estimated value is $1,150,000, with an opinion range of $1,100,000 to $1,150,000. The suggested list price is $1,195,000, or $398,333 per unit and $464 per SF, a 5.26% cap on current net operating income of $62,856 and a 12.93 gross rent multiplier on scheduled rent of $92,400. Operating expenses run 29.87% of effective gross revenue. At $398,333 per unit the list price sits just under the $408,333 median of the trimmed nine-sale comparable set."
             },
             {
               "id": "disclosure-1",
@@ -4806,50 +4830,50 @@
     "deal_id": "heberly-portfolio",
     "domains": {
       "identity": "d1195d1a217dd9d879d4a74d1e783e1d82dfd08fd0525aec24a78154f38684e1",
-      "financial_inputs": "1896fe753a0015a1fbe82432c7ff4b4a6d87759c001186b5808c5679abce91ca",
-      "pricing_decision": "561cbb3424cdc79e97c0f43444f5dd38d6e8e0aefae9d2825720e2c7356601d4",
+      "financial_inputs": "794c14bfb65acf5eec0158ec1d13e2088cc3ed6bfd1bc0780f5ea9824fef8338",
+      "pricing_decision": "ae8b7e9c1809a8987a2a64ed7fd5efbd7e2622d10effc48fc58e4e8df685bc14",
       "sale_comps": "76ebad3fc0da0bc5f221cb08be1f1b893b6f1ac0b0823747d4097d55deeb526e",
       "rent_comps": "799f9184351a21505eb25d83b0d234482d711141e06f06f95c9f13a6a250a345",
-      "copy": "b18410c812e44c989a4b34eab1f49db6b5f697d255a231eafca0e24a0d0f49ba",
+      "copy": "f6ec4eddf46c53eb5926b1c2750f50e47414a9c6c12d152aa34119146f867753",
       "media_selection": "747b878b5ba396290e396b4db58c4a7aa119c48245f287f0f17ae1ecda1f6da8",
       "regulatory_conclusions": "fd86e9bce09511627a7a22aeb99b4173dacf2cbacaf40ad1ec27dc825a72fb48"
     },
     "members": {
       "heberly-screenland-300": {
         "identity": "0b5d78b7656f83af67e901f4cfeeb7580043f8ca569882d4791c3f757bafe970",
-        "financial_inputs": "51439596a3eae189b363fa5db35ca49dc72fcc1900d0486f88a8bf7f39eb537f",
-        "pricing_decision": "57f6fb52552d3db822d96ac2b5cf1e5cee0193ba20ec362ec8f8304914cb2031",
+        "financial_inputs": "347ef9864e744c0c375c7cd5d996bacd3d54962e3659a9026fd9a592197207c9",
+        "pricing_decision": "ee7a12d298c650fa0c6dbfbe2d05ea7b0380ef56bec61812ddda4b35948e87e4",
         "sale_comps": "b849a9a54a94ecbaace051e8eaab1a818b52e91baf2dc14385f006a3a837647e",
         "rent_comps": "aab66fe851345d57f15192b02686c2d1737098376fa99a490565b44b85326807",
-        "copy": "05ed9c52456b8287edf55e5986597fea8ae72be86e4dc9d41065ee74fcdbde8e",
+        "copy": "2c5fa572039e339797ac7f4c132a3906b45786dc4591e57bf2c3d1baf2d3239e",
         "media_selection": "46d2a1330c4841b80fc0c5b000be51e064ef05469d3e4f400246b344011696cd",
         "regulatory_conclusions": "99841073533647b26e0232ef36172b78f6c9b57dfc6121e6dc2b44a359c4e688"
       },
       "heberly-kenwood-1243": {
         "identity": "824eeb70c49b1fb5b0b8943ccec184ce954b3fa90dec0f3ee0a2f1b0fd84d09b",
-        "financial_inputs": "c1d5a572aaffd6722279c824def032c338062a4d466c952f4feeaa9a9a847985",
-        "pricing_decision": "8f80059912ba8f1201f1ce6f77b502a6e8ff0445837e0d04035b8e155535f5d3",
+        "financial_inputs": "dbe920c4743007bb40b716acb41831b0bae2c96083757695b2c8b41b3bc608af",
+        "pricing_decision": "190fa2eccb2fdbca1bfd357cdde6b9d482caa32ec8a0a63b543880f69765c64c",
         "sale_comps": "e48153e79c945b0762d9bfbc599d548e8554549eef9013039947de7415b18f08",
         "rent_comps": "3787fe59cb24a45e77c8e6b515fa6cf2350d6d3ea30937cc02f259b4fdeb2b31",
-        "copy": "57efb72ef27e3a9a51b01544fb74e70e05f6348e74b128d408ddc41f6a04a33c",
+        "copy": "4de14ac63b13a24b6e5085dab97ba51720b03a282915c66c0e2653436c83a711",
         "media_selection": "de68bd81cf156f819776b45e135f482be813c6cea68024e1ca3f6b7fa82f14b9",
         "regulatory_conclusions": "4458b560ee339e40f3b921d74265b24dcff2c33b308a1f2343079d531c1001b9"
       }
     },
     "presentation_hashes": {
       "identity": "f6e9c98089aa666ae194e28a0e9eef5da197d8d939d0d0b2904fb4c6ee363226",
-      "financial_inputs": "86492b5fb428f835ca989767c603fe45513e09819316c809f5ddccbb748388ff",
-      "pricing_decision": "e9b87792abb591fc6a5a45d4f8b5e105472d864947b2dfd0bd6c2145bab93036",
+      "financial_inputs": "8f52fc7a446ca7331aec82095972c200f292a50c0d471983ae11e7527c114124",
+      "pricing_decision": "17665024676a0104304df8b1bb9eeefe9df00f656f8321a1fc8ebda2e0aaf5fa",
       "sale_comps": "173ca54bd6f5b795a681093c2f303c4ddb6f60f6c64a10bae23c13037ab8c66a",
       "rent_comps": "53ba599308c8de9b444d9026b8dab86e180fae14be8a264e8ee9c69a3a06870d",
-      "copy": "ca05e3b2c0c6aa01953da7b17ca36aac937269d4ae7489cdd0275507675ed61f",
+      "copy": "b7b6cfeb55a3be1a584ff387a245853766c828d5ac89dc20781f0230cc27b8f3",
       "media_selection": "7de8d93e835522fc57f3d9bf4725f7aa878c77bba71958b3d280c0abcecf033f",
       "regulatory_conclusions": "4555644df8151c60736017ac4390aec17d372631b97460ab6d2df9c72780ba14"
     }
   },
   "stats": {
     "live": true,
-    "generated": "2026-09-04T16:07:04+00:00",
+    "generated": "2026-09-08T20:20:41+00:00",
     "geography": {
       "states": 21,
       "has_dc": true,
